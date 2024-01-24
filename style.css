@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+#profileImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+}
